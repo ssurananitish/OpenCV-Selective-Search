@@ -36,4 +36,3 @@ for i in range(0,len(rects), 100):
     cv2.imwrite("./Output_Images/Output.jpg", output)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-
